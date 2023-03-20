@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+  <windowclass name="npc_combat" merge="join">
+    <sheetdata>
+      <button_checkbox_column_StaticInit name="useStaticInit" />
+      <label_column_StaticInit name="init_label">
+        <static>Set Initiative</static>
+      </label_column_StaticInit>
+      <number_column_StaticInit name="staticInit">
+        <default>0</default>
+      </number_column_StaticInit>
+    </sheetdata>
+  </windowclass>
+</root>
