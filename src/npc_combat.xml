@@ -3,7 +3,7 @@
   <windowclass name="npc_combat" merge="join">
     <sheetdata>
       <button_checkbox_column_StaticInit name="useStaticInit" />
-      <label_column_StaticInit name="init_label">
+      <label_column_StaticInit name="StaticInit_label">
         <static>Set Initiative</static>
       </label_column_StaticInit>
       <number_column_StaticInit name="staticInit">
