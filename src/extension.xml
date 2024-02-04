@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <root version="3.0">
-  <announcement>
-    <text>NPC Static Initiative v1.2</text>
-    <font>systemfont</font>
-    <icon>Mattekure_Logo</icon>
-  </announcement>
-  <properties>
-    <name>NPC Static Initiative</name>
-    <version>1.2</version>
-    <author>mattekure</author>
-    <description>Allows NPCs to have a set initiative</description>
-    <loadorder>99</loadorder>
-    <ruleset>
-      <name>5E</name>
-    </ruleset>
-  </properties>
-  <base>
-    <includefile source="npc_combat.xml" />
-    <script name="staticInit" file="staticInit.lua" />
-    <includefile source="templates.xml" />
-    <icon name="Mattekure_Logo" file="Mattekure_Logo.png" />
-  </base>
+    <announcement>
+        <text>NPC Static Initiative v1.3\rCreated by mattekure</text>
+        <font>systemfont</font>
+        <icon>Mattekure_Logo</icon>
+    </announcement>
+    <properties>
+        <name>Feature: NPC Static Initiative</name>
+        <version>1.3</version>
+        <author>mattekure</author>
+        <description>Allows NPCs to have a set initiative</description>
+        <loadorder>99</loadorder>
+        <ruleset>
+            <name>5E</name>
+        </ruleset>
+    </properties>
+    <base>
+        <includefile source="npc_combat.xml"/>
+        <script file="staticInit.lua" name="staticInit"/>
+        <includefile source="templates.xml"/>
+        <icon file="Mattekure_Logo.png" name="Mattekure_Logo"/>
+    </base>
 </root>
