@@ -3,7 +3,7 @@
     <windowclass merge="join" name="npc_combat">
         <sheetdata>
             <label insertbefore="traits_header" name="StaticInit_label">
-                <anchored height="20" relation="current" to="columnanchor" width="80">
+                <anchored height="20" relation="current" to="columnanchor" width="110">
                     <top anchor="bottom" offset="7" relation="relative"/>
                     <left/>
                 </anchored>
@@ -12,13 +12,13 @@
             <button_checkbox name="useStaticInit">
                 <anchored height="20" to="StaticInit_label" width="20">
                     <top/>
-                    <left offset="85"/>
+                    <left offset="115"/>
                 </anchored>
             </button_checkbox>
             <basicnumber name="staticInit">
                 <anchored height="20" to="StaticInit_label" width="40">
                     <top/>
-                    <left offset="115"/>
+                    <left offset="145"/>
                 </anchored>
                 <default>0</default>
             </basicnumber>

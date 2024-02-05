@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root version="3.0">
     <announcement>
-        <text>NPC Static Initiative v1.3\rCreated by mattekure</text>
+        <text>NPC Static Initiative v1.4\rCreated by mattekure 2024-02-04</text>
         <font>systemfont</font>
         <icon>Mattekure_Logo</icon>
     </announcement>
     <properties>
         <name>Feature: NPC Static Initiative</name>
-        <version>1.3</version>
+        <version>1.4</version>
         <author>mattekure</author>
         <description>Allows NPCs to have a set initiative</description>
         <loadorder>99</loadorder>
