@@ -18,7 +18,6 @@
     <base>
         <includefile source="npc_combat.xml"/>
         <script file="staticInit.lua" name="staticInit"/>
-        <includefile source="templates.xml"/>
         <icon file="Mattekure_Logo.png" name="Mattekure_Logo"/>
     </base>
 </root>
