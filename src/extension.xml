@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root version="3.0">
     <announcement>
-        <text>NPC Static Initiative v1.4\rCreated by mattekure 2024-02-04</text>
+        <text>NPC Static Initiative v1.5\rCreated by mattekure 2024-09-21</text>
         <font>systemfont</font>
         <icon>Mattekure_Logo</icon>
     </announcement>
     <properties>
         <name>Feature: NPC Static Initiative</name>
-        <version>1.4</version>
+        <version>1.5</version>
         <author>mattekure</author>
         <description>Allows NPCs to have a set initiative</description>
         <loadorder>99</loadorder>
@@ -16,8 +16,8 @@
         </ruleset>
     </properties>
     <base>
-        <includefile source="npc_combat.xml"/>
-        <script file="staticInit.lua" name="staticInit"/>
-        <icon file="Mattekure_Logo.png" name="Mattekure_Logo"/>
+        <includefile source="campaign/record_npc.xml"/>
+        <script file="scripts/staticInit.lua" name="staticInit"/>
+        <icon file="graphics/Mattekure_Logo.png" name="Mattekure_Logo"/>
     </base>
 </root>

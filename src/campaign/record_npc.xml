@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root>
-    <windowclass merge="join" name="npc_combat">
+    <windowclass merge="join" name="npc_combat_actions">
         <sheetdata>
             <label insertbefore="traits_header" name="StaticInit_label">
-                <anchored height="20" relation="current" to="columnanchor" width="110">
+                <anchored height="20" relation="current" to="contentanchor" width="110">
                     <top anchor="bottom" offset="7" relation="relative"/>
                     <left/>
                 </anchored>
